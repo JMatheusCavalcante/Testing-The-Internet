@@ -35,4 +35,4 @@ Sinta-se à vontade para contribuir com o projeto! Para isso, faça um fork do r
 
 
 ##  Licença
-Este projeto está licenciado sob a Licença ISC. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob a Licença ISC. Veja o arquivo [LICENSE] para mais detalhes.
