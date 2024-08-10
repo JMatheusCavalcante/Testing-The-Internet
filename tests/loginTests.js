@@ -151,7 +151,7 @@ async function loginTest() {
 
 
            
-        //-------------------------- TESTE 4 - Horizontal Slider --------------------------------------------
+//-------------------------- TESTE 4 - Horizontal Slider --------------------------------------------
 
     
         // Seleciona o link do Horizontal Slider
@@ -173,7 +173,7 @@ async function loginTest() {
             console.log('Erro ao verificar a página de "Horizontal Slider":', error.message);
         }
 
-        // Interação com o Slider:
+    // Interação com o Slider:
         try {
             // Espera até que o slider seja carregado na página
             await driver.wait(until.elementLocated(By.css('input[type="range"]')), 5000);
@@ -217,8 +217,8 @@ async function loginTest() {
         console.log('Interação com Slider finalizada, retornando para página inicial...');
         await driver.sleep(3000);
 
-
-
+        await driver.get('https://the-internet.herokuapp.com/');
+        await driver.sleep(3000);
 
 
 
